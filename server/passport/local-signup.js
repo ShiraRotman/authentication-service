@@ -11,7 +11,7 @@ module.exports = new PassportLocalStrategy({
   session: false,
   passReqToCallback: true
 }, (req, email, password, done) => {
-  const name = (req.body && req.body.name.name) || ''
+  const name = (req.body && req.body.name) || ''
   const newUser = new User({
     tenant: req.headers.tenant,
     email: email.trim(),

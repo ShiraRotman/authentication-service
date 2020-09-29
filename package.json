@@ -1,6 +1,6 @@
 {
   "name": "@greenpress/auth",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "Express Passport authentication service",
   "keywords": [
     "express",
@@ -25,10 +25,10 @@
   "author": "David Meir-Levy <davidmeirlevy@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@greenpress/api-kit": "0.0.1",
+    "@greenpress/api-kit": "0.1.0",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.7.5",
+    "mongoose": "^5.10.5",
     "nodemailer": "^6.4.2",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
